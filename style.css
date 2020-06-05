@@ -1,0 +1,228 @@
+
+.heading{
+    color: #c33332;
+    font-family: 'Cabin Sketch', cursive;
+}
+/* navbar */
+.navbar-nav{
+   margin-left: 340px;
+}
+
+
+.nav-link:hover{
+    color: #c33332 !important;
+}
+@media only screen and (max-width: 986px){
+    .navbar-nav{
+        margin:0;        
+        }
+      
+    }
+   
+.navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -60px !important;  
+        
+    }
+@media only screen and (max-width: 1125px){
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            margin-left: 80px !important;  
+            
+        }
+    }
+@media only screen and (max-width: 990px){
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            margin-left:-50px !important;  
+        }
+    }
+@media only screen and (max-width: 450px){
+        .navbar-brand {
+            position: absolute;
+            left: 50%;
+            margin-left:-30px !important;  
+        }
+    }
+.icon{
+    float: right;
+    color: rgb(94, 10, 10);
+}
+.icon:hover{
+    color: #c33332;
+}
+/* slider2 */
+.container{
+    margin: 80px;
+   
+}
+.slider2{
+    width: 500px; 
+    height: 600px;
+}
+.slider2-para{
+margin-top: 40px;
+margin-left: 50px;
+justify-content: left;
+font-size: 30px;
+font-family: 'Dosis', sans-serif;
+color: rgb(94, 10, 10);
+}
+@media only screen and (max-width: 500px){
+    .slider2{
+        width: 360px;
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .slider2{
+        width: 280px;
+        height: 400px;
+        
+    }
+}
+/* score */
+.score{
+  
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    height: 100%
+
+}
+.container-score{
+  padding:30px;
+
+}
+/* location */
+.location{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+@media only screen and (max-width: 800px){
+    .location >iframe{
+        width: 700px;
+        height: 450px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .location >iframe{
+        width: 400px;
+        height: 450px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .location >iframe{
+        width: 360px;
+        height: 500px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 300px){
+    .location >iframe{
+        width: 200px;
+        height: 400px;
+        padding: 10px;
+    }
+}
+
+/* contact */
+.contact-us{
+    padding-top: 30px;
+    padding-bottom: 30px;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* footer */
+.clearfix{
+    background-color: rgb(94, 10, 10);
+}
+.icons{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.fa {
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa-facebook, .fa-instagram {
+    background:white;
+    color: rgb(94, 10, 10);
+   
+  }  
+  .scrolltotop{ 
+    background-color:rgb(94, 10, 10) ;
+    color: white;
+    text-align: center;
+    padding-right: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+/* menu page */
+.card{
+    width:270px;
+    height: 400px !important;
+    margin-bottom: 20px;
+}
+.btn-danger{
+    background-color: rgb(94, 10, 10) !important;
+    margin-left: 10px;
+}
+
+.btn-danger:hover{
+    background-color: #c33332 !important;
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* story */
+@media only screen and (max-width: 780px){
+    .story{
+      padding:10px;
+    }
+}
+@media only screen and (max-width: 780px){
+    .story-img{
+      margin-bottom:10px;
+    }
+}
+/* contact */
+.franchise{
+    margin: 10px;
+}
+
+
+ /* order */
+ 
+ .img_container {
+color: rgb(190, 190, 190);
+font-size: 110px;
+text-align: center;
+}
+.text_container{
+    font-size: 15px;  
+    text-align: center;
+    color: rgb(190, 190, 190);
+   padding-left: 50px;
+}
